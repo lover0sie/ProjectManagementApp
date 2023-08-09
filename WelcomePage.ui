@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(242, 142, 182, 255), stop:1 rgba(255, 232, 179, 255));}</string>
+   </property>
+   <widget class="QLabel" name="SmoothProject">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>430</y>
+      <width>291</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(113, 72, 58);
+font: 63 50pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Project</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Login">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>660</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 119);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(200, 77, 114);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SignUp">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>660</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 119);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(200, 77, 114);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>-10</y>
+      <width>881</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Pictures/App/File Manager.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>440</y>
+      <width>311</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(161, 69, 71);
+font: 63 50pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Smooth</string>
+    </property>
+   </widget>
+   <zorder>Login</zorder>
+   <zorder>SignUp</zorder>
+   <zorder>label_2</zorder>
+   <zorder>SmoothProject</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="Logo">
+    <file>../../Pictures/Icons/File Manager.png</file>
+    <file>../../Downloads/FILE.png</file>
+  </qresource>
+</RCC>

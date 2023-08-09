@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(242, 164, 215, 255), stop:1 rgba(214, 255, 255, 255));}</string>
+   </property>
+   <widget class="QLabel" name="create_a_project">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>10</y>
+      <width>551</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(90, 73, 50);
+font: 63 45pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Update project</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="project_name">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>140</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Project Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="company_name_box">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>280</y>
+      <width>791</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Update">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>720</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Back">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>720</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>670</y>
+      <width>801</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="name_of_project">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>170</y>
+      <width>791</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(242, 164, 215, 255), stop:1 rgba(214, 255, 255, 255));
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(88, 70, 68);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QComboBox:hover{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}</string>
+    </property>
+    <property name="maxVisibleItems">
+     <number>30</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="company_name">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>240</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>New Company Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="start_date_box">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>390</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>YYYY-MM-DD</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="end_date_box">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>390</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>YYYY-MM-DD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="start_date">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>350</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+
+</string>
+    </property>
+    <property name="text">
+     <string>New Start Date</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="end_date">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>360</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>New End Date</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="total_budget_box">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>500</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+border-radius: 10px;
+padding-left: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>e.g. 27,500,900.00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="total_budget">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>460</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Latest Total Budget (RM)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>570</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Updated Status</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="status_box">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>610</y>
+      <width>791</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(242, 164, 215, 255), stop:1 rgba(214, 255, 255, 255));
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(88, 70, 68);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QComboBox:hover{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string extracomment="uiui">Completed</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ongoing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>On Hold</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="actual_cost_box">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>500</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+border-radius: 10px;
+padding-left: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>e.g. 27,500,900.00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="latest_actual_cost">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>460</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Latest Actual Cost (RM)</string>
+    </property>
+   </widget>
+   <zorder>create_a_project</zorder>
+   <zorder>project_name</zorder>
+   <zorder>Update</zorder>
+   <zorder>Back</zorder>
+   <zorder>company_name_box</zorder>
+   <zorder>error</zorder>
+   <zorder>name_of_project</zorder>
+   <zorder>company_name</zorder>
+   <zorder>start_date_box</zorder>
+   <zorder>end_date_box</zorder>
+   <zorder>start_date</zorder>
+   <zorder>end_date</zorder>
+   <zorder>total_budget_box</zorder>
+   <zorder>total_budget</zorder>
+   <zorder>status</zorder>
+   <zorder>status_box</zorder>
+   <zorder>actual_cost_box</zorder>
+   <zorder>latest_actual_cost</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

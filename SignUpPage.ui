@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>799</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(242, 142, 182, 255), stop:1 rgba(255, 232, 179, 255));}</string>
+   </property>
+   <widget class="QLabel" name="welcome_text">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>0</y>
+      <width>281</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(113, 72, 58);
+font: 63 45pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="firstname_box">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>180</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(135, 61, 62);
+border-radius: 15px;
+padding-left: 20px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>First Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="username_box">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>270</y>
+      <width>681</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(135, 61, 62);
+border-radius: 15px;
+padding-left: 20px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="email_box">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>360</y>
+      <width>681</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(135, 61, 62);
+border-radius: 15px;
+padding-left: 20px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password_box">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>450</y>
+      <width>681</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(135, 61, 62);
+border-radius: 15px;
+padding-left: 20px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SignUp">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>690</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 119);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(200, 77, 114);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lastname_box">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>180</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(135, 61, 62);
+border-radius: 15px;
+padding-left: 20px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Last Name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Back">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>690</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 119);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(200, 77, 114);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="confirmpassword_box">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>540</y>
+      <width>681</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(135, 61, 62);
+border-radius: 15px;
+padding-left: 20px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Confirm Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>620</y>
+      <width>671</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-40</y>
+      <width>431</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Pictures/App/Track of your projects.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

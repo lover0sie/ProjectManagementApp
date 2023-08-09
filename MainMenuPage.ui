@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(242, 164, 215, 255), stop:1 rgba(214, 255, 255, 255));}</string>
+   </property>
+   <widget class="QTableWidget" name="ProjectTable">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>761</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Yu Gothic UI Semilight&quot;;
+color: black;
+background-color: rgb(255, 220, 227);
+gridline-color: rgb(144, 131, 129);
+</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>Project Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Company Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Start Date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>End Date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Total Budget (RM)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Actual Cost (RM)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Status</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="create_a_project">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>710</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Create project</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logout">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>710</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Log out</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="welcome_text">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>10</y>
+      <width>411</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(90, 73, 50);
+font: 63 30pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>List of Projects</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="update_project">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>710</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Update project</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_project">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>710</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Delete project</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="set_up_meeting">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>710</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Set Up Meeting</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="Lists">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>110</y>
+      <width>391</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 220, 227);
+border: 3px solid rgb(255, 149, 151);
+font: 12pt &quot;Yu Gothic UI Semilight&quot;;
+padding-bottom: 25px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Meetings">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>20</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(90, 73, 50);
+font: 63 30pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Meetings</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

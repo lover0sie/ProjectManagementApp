@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>771</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(250, 249, 246);</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>1111</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 217, 205)</string>
+   </property>
+   <widget class="QLabel" name="welcome_text">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>20</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(113, 72, 58);
+font: 63 40pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="name_box">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>180</y>
+      <width>701</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 13pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgb(255, 242, 238);
+border-color: rgb(255, 255, 255);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>150</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 13pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="username">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>240</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 13pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Username:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="username_box">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>280</y>
+      <width>701</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 13pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgb(255, 242, 238);
+border-color: rgb(255, 255, 255);
+
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="email_box">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>390</y>
+      <width>701</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 13pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgb(255, 242, 238);
+border-color: rgb(255, 255, 255);
+
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="email">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>360</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 13pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Email:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password_box">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>500</y>
+      <width>701</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 13pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgb(255, 242, 238);
+border-color: rgb(255, 255, 255);
+
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="password">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>460</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 13pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Password:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SignUp">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>590</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:  rgb(255, 148, 150);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 30px;
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Back">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>590</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 135, 111);
+font: 63 18pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 30px;
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

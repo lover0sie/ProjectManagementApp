@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(242, 164, 215, 255), stop:1 rgba(214, 255, 255, 255));}</string>
+   </property>
+   <widget class="QPushButton" name="Back">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>730</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="set_up_meeting">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>561</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(90, 73, 50);
+font: 63 40pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Set Up Meeting</string>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="Calendar">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>450</y>
+      <width>411</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 9pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgb(255, 220, 221);
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Save">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>730</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 124, 142);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(141, 91, 158);
+font: 63 16pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+QPushButton:pressed
+{
+padding-left:5px;
+padding-top:5px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="organized_by_box">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>270</y>
+      <width>451</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Organizedby">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>230</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Organized by</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="date_box">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>270</y>
+      <width>451</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>YYYY-MM-DD</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="start_time_box">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>380</y>
+      <width>451</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>e.g. 13:00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="StartTime">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>340</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Start Time</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Date">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>230</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="end_time_box">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>380</y>
+      <width>451</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>e.g. 15:00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="EndTime">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>340</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>End Time</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Title">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>130</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Title</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="title_box">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>170</y>
+      <width>971</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color: rgba(0,0,0,0);
+border: 3px solid rgb(132, 99, 99);
+padding-left: 10px;
+border-radius: 10px;
+}
+
+QLineEdit:focus
+{
+color: rgb(88, 70, 68);
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+background-color:rgb(255, 226, 220);
+border: 3px solid rgb(223, 134, 135);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>680</y>
+      <width>1001</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;
+font: 63 15pt &quot;Yu Gothic UI Semibold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
