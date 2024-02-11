@@ -6,16 +6,26 @@ This is a simple Project Management App built with PyQt5 for my Python Programmi
 
    ![](https://i.imgur.com/JTsAWIF.png)
    
-2) Sign up page
+2) Log in page
+   ![](https://i.imgur.com/nFsFldL.png)
 
+3) Sign-up page
+   ![](https://i.imgur.com/R0curjG.png)
+
+4) Main menu page (displays all the projects with Project Name, Company Name, Start Date, End Date, Actual Cost, and Status and options to create, update, and delete project and meetings)
+   ![](https://i.imgur.com/8iOP7Dk.png)
    
+5) Create project page
+    ![](https://i.imgur.com/JRnEOqy.png)
+   
+6) Update project page
+   ![](https://i.imgur.com/eWae62m.png)
 
-5) Log in page
-6) Main menu page (displays all the projects with Project Name, Company Name, Start Date, End Date, Actual Cost, and Status and options to create, update, and delete project and meetings)
-7) Create project page
-8) Update project page
-9) Delete project page
-10) Setup Meeting page
+7) Delete project page
+   ![](https://i.imgur.com/djx2rNh.png)
+   
+8) Setup Meeting page
+   1[](https://i.imgur.com/E2pBnQD.png)
 
 In order to run the program successfully:
 
