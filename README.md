@@ -25,7 +25,7 @@ This is a simple Project Management App built with PyQt5 for my Python Programmi
    ![](https://i.imgur.com/djx2rNh.png)
    
 8) Setup Meeting page
-   1[](https://i.imgur.com/E2pBnQD.png)
+   ![](https://i.imgur.com/E2pBnQD.png)
 
 In order to run the program successfully:
 
