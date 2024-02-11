@@ -1,9 +1,21 @@
 # ProjectManagementApp
 
-This is a simple Project Management App built with PyQt5 for my Python Programming Assignment. The aim of the app is to serve as the native application. I have used Spyder as IDE and mySQL as the database. The Project Management App consists of:
+This is a simple Project Management App built with PyQt5 for my Python Programming Assignment. The app aims to serve as a native application. I have used Spyder as IDE and mySQL as the database.
+
+> [!IMPORTANT] 
+>In order to run the program successfully:
+>1) Open the "main2.py" in any Python IDE
+>2) Make sure that you add the folder to path and retrieve the ".ui" files 
+>3) Make sure that you have installed mySQL in your computer
+
+> [!NOTE]
+>The pictures might not be uploaded due to the different paths of the pictures in the ".ui" files. Make sure you download the pictures with ".png" and ".ico" files and open Qt Designer to insert the image. These images are from Canva and desktop icon websites. These images does not interfere with the functionality of the program. You can insert your own images. 
+
+## Construction of the App
+
+The Project Management App consists of:
 
 1) Welcome page
-
    ![](https://i.imgur.com/JTsAWIF.png)
    
 2) Log in page
@@ -27,10 +39,9 @@ This is a simple Project Management App built with PyQt5 for my Python Programmi
 8) Setup Meeting page
    ![](https://i.imgur.com/E2pBnQD.png)
 
-In order to run the program successfully:
+## The App 
 
-1) Open the "main2.py" in any Python IDE
-2) Make sure that you add the folder to path and retrieve the ".ui" files 
-3) Make sure that you have installed mySQL in your computer
+https://github.com/lover0sie/ProjectManagementApp/assets/67999413/0d14c478-7cf7-4a6b-af21-f5acebca744f
 
-Side note: The pictures might not be uploaded due to the different paths of the pictures in the ".ui" files. Make sure you download the pictures with ".png" and ".ico" files and open Qt Designer to insert the image. These images are from Canva and desktop icon websites. These images does not interfere with the functionality of the program. You can insert your own images. 
+
+
